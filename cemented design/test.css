@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(26, 12, 12, 0.349);
+}
+#overlay{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    background-color: rgb(255, 255, 255);
+   
+}
+#hansraj{
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: rgba(31, 12, 12, 0.377);
+    left: 70%;
+
+}
+#overlay{
+    height: 100%;
+    width: 90%;
+    /* background-color: cornflowerblue; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+#left{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+}
+#left i{
+    position: absolute;
+    left: 20px;
+}
+#right{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    position: absolute;
+    left: 48%;
+    height: 69%;
+}
+h1{
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    font-size: 90px;
+    transform: translate(-50%,-50%);
+
+}
+h2{
+    position: absolute;
+    left: 51%;
+    top: 36%;
+    font-size: 90px;
+}
+h5{
+    position: absolute;
+    left: -6%;
+    top: 40%;
+    font-size: 15px;
+    transform: rotate(90deg);
+}
+p{
+    position: absolute;
+    font-size: 20px;
+    left: 55%;
+
+}
+a i{
+    position: absolute;
+    display: flex;
+}
+#facebook{
+    position: absolute;
+    top: 73%;
+    left: 20px;
+}
+#instagram{
+    position: absolute;
+    top: 78%;
+    left: 20px;
+}
+p{
+    position: absolute;
+    z-index: 99;
+    font-size: 13px;
+    left: 33%;
+    top: 52%;
+
+
+}
+
+h3{
+    position: absolute;
+    top: 76%;
+    left: 31%;
+    transform: rotate(90deg);
+
+}
+hr{
+    width: 73px;
+    height: 4px;
+    background-color: black;
+    border-color: black;
+    position: absolute;
+    top: 78%;
+    left: 33%;
+    transform: rotate(90deg);
+}
+#paragraph{
+    top: 87%;
+    left: 48%;
+    font-size: 8px;
+}
